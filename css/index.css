@@ -229,7 +229,7 @@
   width: 100%;
   height: 237px;
   border-radius: 2px;
-  background-image: url('../images/menu-header-bg@3x.png');
+  background-image: url('../images/menu-header-bg@2x.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -241,6 +241,10 @@
   width: 98.5795454545%;
   height: 41px;
   margin: 0;
+}
+li:hover{
+  background-color: gray;
+  cursor: pointer;
 }
 
 .menu1 {
@@ -303,21 +307,6 @@
   box-shadow: 3px 2px 5px rgba(153, 153, 153, 0.5);
 }
 
-._text-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 99.8626373626%;
-  min-height: 51px;
-  background: url('../images/ic-dashboard.svg') rgba(90, 6, 132, 0.92);
-  background-repeat: no-repeat;
-  background-size: 75px 100px;
-  background-position: left center;
-  font-size: 1em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
 .element ._container-12 {
   top: 173px;
   height: 89px;
@@ -378,6 +367,7 @@ text{
     height: 200px;
     z-index: 3;
     width: 200px;
+    cursor: pointer;
     top: 7px;
     position: relative;
     color: maroon;
